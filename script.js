@@ -21,12 +21,12 @@ const keyMap = {
 var sawToothWave = new Pizzicato.Sound({ 
     source: 'wave',
     Options: {
-        type: 'sawtooth'
-        frequency: 440
+        type: 'sawtooth',
+        frequency: keyMap
     }
 }, function(error) {
     if (!error)
         console.log('Sawtooth loaded');
 });
 
-//ima leave this cooked until i have more time to test this 
+/* ima leave this cooked until i have more time to test this */
