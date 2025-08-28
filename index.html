@@ -70,19 +70,5 @@
   <button id="fetchbutton">Fetch data</button>
 
   <script src="index.js"></script>
-  <script>
-    const input = document.getElementById('inputdata');
-    const submitBtn = document.getElementById('submitbutton');
-
-    input.addEventListener('input', () => {
-      if (input.value.trim() !== "") {
-        submitBtn.disabled = false;
-        submitBtn.classList.add('active');
-      } else {
-        submitBtn.disabled = true;
-        submitBtn.classList.remove('active');
-      }
-    });
-  </script>
 </body>
 </html>
